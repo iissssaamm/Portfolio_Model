@@ -1,0 +1,194 @@
+@include medium {
+    .menu-btn {
+        visibility: hidden;
+    }
+    .nav {
+        visibility: visible;
+        .menu-nav{
+            display: block;
+            transform: translateY(0);
+            height:100%;
+            background: transparent;
+            text-align: right;
+            &__item {
+                display: inline;
+                padding-right: 1.5rem;
+            }
+            &__link{
+                font-size: 1.3rem;
+            }
+        }
+    }
+    /*______ABOUT-MEDIUM______*/
+    .about__bio{
+        font-size: 1.2rem;
+    }
+    .jobs {
+        margin: 4rem 6rem 0 6rem !important;
+    }
+    /*______PROJECT-MEDIUM______*/
+    .projects__bio-image{
+        height: 40vh;
+    }
+    .projects__items{
+        grid-template-columns: repeat(2,1fr);
+        height: auto;
+    }
+
+    /*______CONTACT-MEDIUM______*/
+    .contact{
+       
+        background: 
+        linear-gradient(
+            to right,
+            rgba(#000,0.8),
+            rgba(#000,0.2)
+        ),
+    
+        url('../img/compositing _donut_.png')center left;
+        background-size: cover; 
+        align-items: start;
+        &__list{
+            margin-left: 3rem;
+           }
+           .social-icons {
+            margin-left: 3rem;
+           }
+    }
+}
+@include large {
+    .menu-btn {
+        visibility: hidden;
+    }
+    .nav {
+        visibility: visible;
+        .menu-nav{
+            display: block;
+            transform: translateY(0);
+            height:100%;
+            background: transparent;
+            text-align: right;
+            &__item {
+                display: inline;
+                padding-right: 2rem;
+            }
+            &__link{
+                font-size: 1.5rem;
+            }
+        }
+    }
+
+    /*______ABOUT-LARGE______*/
+    .about__bio{
+        font-size: 1.3rem;
+    }
+    .jobs {
+        margin: 4rem 7rem 0 7rem !important;
+    }
+    /*______PROJECT-LARGE______*/
+    .projects__bio-image{
+        height: 60vh;
+    }
+    .projects__items{
+        grid-template-columns: repeat(2,1fr);
+        height: auto;
+        margin: 4rem 7rem 0 7rem !important;
+    }
+
+    /*______CONTACT-LARGE______*/
+    .contact{
+       
+        background: 
+        linear-gradient(
+            to right,
+            rgba(#000,0.8),
+            rgba(#000,0.2)
+        ),
+    
+        url('../img/compositing _donut_.png')center;
+        background-size: cover; 
+        align-items: center;
+        &__list{
+            margin-left: 3rem;
+           }
+           .social-icons {
+            margin-left: 3rem;
+           }
+    }
+
+}
+@include x-large {
+    .menu-btn {
+        visibility: hidden;
+    }
+    .nav {
+        visibility: visible;
+        .menu-nav{
+            display: block;
+            transform: translateY(0);
+            height:100%;
+            background: transparent;
+            text-align: right;
+            &__item {
+                display: inline;
+                padding: 3rem;
+            }
+            &__link{
+                font-size: 1.8rem;
+            }
+        }
+    }
+
+    /*______ABOUT-LARGE______*/
+    .about__bio{
+        font-size: 1.5rem;
+        line-height: 2;
+    }
+    .about__bio-image{
+        height: 80vh !important;
+        justify-content: center;
+    }
+    .jobs {
+        margin: 4rem 19rem 0 19rem !important;
+        p{
+            font-size: 1.3rem;
+        }
+    }
+    /*______PROJECT-LARGE______*/
+    .projects__bio-image{
+        height: 80vh;
+        justify-content: center;
+        .text-secondary {
+            font-size: 3rem;
+            margin-bottom: 2rem;
+           }
+    }
+    .projects__items{
+        grid-template-columns: repeat(3,1fr);
+        height: auto;
+        margin: 4rem 7rem 0 7rem !important;
+    }
+
+    /*______CONTACT-LARGE______*/
+    .contact{
+       
+        background: 
+        linear-gradient(
+            to right,
+            rgba(#000,0.8),
+            rgba(#000,0.2)
+        ),
+    
+        url('../img/compositing _donut_.png')center;
+        background-size: cover; 
+        align-items: center;
+        &__list{
+            margin-left: 3rem;
+            grid-template-columns: repeat(3,1fr);
+           }
+           .social-icons {
+            margin-left: 3rem;
+           }
+    }
+    
+}

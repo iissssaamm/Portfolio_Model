@@ -1,0 +1,28 @@
+.home{
+    height: 100%;
+    padding-top: 40vh;
+    overflow: hidden;
+    align-items: center;
+    text-align: center;
+    display:inherit;
+    background: 
+    linear-gradient(
+        to right,
+        rgba(#000,0.8),
+        rgba(#000,0.2)
+    ),
+
+    url('../img/black-bg.png') center right;
+    /*background-size: cover;*/
+    &__name{
+        font-size: 5rem;
+        padding-bottom: 1rem;
+        margin-top:1rem ;
+        border-bottom: 2px solid set-text-color(#000);
+
+        &--last {
+            color:$secondery-color ;
+            font-weight: 700;
+        }
+    }
+}
